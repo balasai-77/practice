@@ -1,0 +1,28 @@
+I'll help you create a Cloudflare Pages project and connect it to Git. Here are the two main methods:
+
+Method 1: Using the Cloudflare Dashboard (Recommended)
+Create a new Pages project:
+
+Go to https://dash.cloudflare.com/0c9bf81900e29cc9851c8334adf31f0c/pages
+Click "Create a project"
+Select "Connect to Git"
+Choose your Git provider (GitHub, GitLab, or Bitbucket)
+Authorize Cloudflare to access your repositories
+Select the repository you want to deploy
+Then follow the setup wizard to configure your build settings, environment variables, and custom domain if needed.
+
+Method 2: Using the C3 CLI
+If you prefer command-line setup:
+
+bash
+
+
+npm create cloudflare@latest
+Important: When prompted "Do you want to deploy your application?", select "no". This ensures you can connect the project to a Git repository later.
+
+After creating the project locally:
+
+Create a new Git repository for your project
+Push your code to GitHub/GitLab
+Connect the repository in the Cloudflare dashboard or use the Git integration settings
+Which method would you like to use? I can help you with either one - just let me know if you need help with specific steps or configuration options!
